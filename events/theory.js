@@ -17,7 +17,7 @@
     It’s like calling a function, but instead, it triggers all listeners (functions) attached to 
     the specified event.
  
-    2. on(eventName, listener)
+    2. on/addListener(eventName, listener)
  
     Purpose: Attaches a listener (a function) to a specific eventName. This listener will 
     execute when the event is emitted.
@@ -27,7 +27,7 @@
  * Think of it as defining custom events and then triggering them:
  * 
  * 
- *  Defining a Listener (on):
+ *  Defining a Listener (on/addListener):
  
     It's like defining a function for an event.
     The listener will execute when the corresponding event is triggered.
